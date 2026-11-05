@@ -35,9 +35,9 @@ export function StationMap({
     if (!mapContainerRef.current) return;
     if (mapInstanceRef.current) return;
 
-    // Default center (Pune coords)
-    const initialLat = userCoords?.lat ?? (stations[0]?.latitude ?? 18.5204);
-    const initialLng = userCoords?.lng ?? (stations[0]?.longitude ?? 73.8567);
+    // Default center (Latur, Maharashtra coords)
+    const initialLat = userCoords?.lat ?? (stations[0]?.latitude ?? 18.4088);
+    const initialLng = userCoords?.lng ?? (stations[0]?.longitude ?? 76.5604);
 
     const map = L.map(mapContainerRef.current, {
       center: [initialLat, initialLng],

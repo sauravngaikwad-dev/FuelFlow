@@ -313,7 +313,7 @@ export function StationDetails({
             <div style={{ fontSize: '14px', fontWeight: 700, marginTop: '4px' }}>
               {station.latitude.toFixed(4)}, {station.longitude.toFixed(4)}
             </div>
-            <div style={{ fontSize: '11px', marginTop: '2px' }}>Karve Nagar / Pune Sector</div>
+            <div style={{ fontSize: '11px', marginTop: '2px' }}>Latur, Maharashtra Sector</div>
           </div>
         </div>
 
